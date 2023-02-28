@@ -72,32 +72,18 @@
 #     else:
 #         print("It's wrong")
 # print(count)
-
+#
 # 5
 # import json
-
-
-# def write(data, filename):
-#     data = json.dumps(data)
-#     data = json.loads(str(data))
-#     with open(filename, "w", encoding="UTF-8") as file:
-#         json.dump(data, file, indent=4)
 #
-#
-# def read(filename):
-#     with open(filename, "r", encoding="UTF-8") as file:
-#         return json.load(file)
-#
-#
-# data = {
-#     "10001": ("John", 29,),
-#     "10002": ("Maxim", 30,),
-#     "10003": ("Denis", 19),
-#     "10004": ("George", 26),
-#     "10005": ("Daniel", 23),
-#     "10006": ("Nick", 31),
+# dict1 = {
+#     12345: ("Rick", 31),
+#     23456: ("Nick", 21),
+#     34567: ("Travis", 42),
+#     45678: ("John", 41),
+#     56789: ("Max", 32)
 # }
-
-# write(data, "5.json")
-# input(data)
-
+#
+# with open("5.json", "w", encoding="UTF-8") as file_dict:
+#     json.dump(dict1, file_dict)
+# 6
