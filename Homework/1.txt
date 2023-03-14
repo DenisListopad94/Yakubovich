@@ -1,5 +1,0 @@
-Hello World!
-Hello Java
-Hello Python!
-Hello TypeScript
-Hello Denis!
